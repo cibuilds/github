@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
 
-docker build --file 0.10/Dockerfile -t cibuilds/github:latest -t cibuilds/github:0.10.0  -t cibuilds/github:0.10 .
+docker build --file 0.10/Dockerfile -t cibuilds/github:latest -t cibuilds/github:0.10.1  -t cibuilds/github:0.10 .
