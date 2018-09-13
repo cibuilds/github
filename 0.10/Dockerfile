@@ -4,7 +4,7 @@ FROM cibuilds/base:latest
 
 LABEL maintainer="Ricardo N Feliciano (FelicianoTech) <ricardo@feliciano.tech>"
 
-ENV GHR_VERSION=0.10.0
+ENV GHR_VERSION=0.10.1
 ENV GHR_URL=https://github.com/tcnksm/ghr/releases/download/v${GHR_VERSION}/ghr_v${GHR_VERSION}_linux_amd64.tar.gz
 
 RUN wget "$GHR_URL" && \
